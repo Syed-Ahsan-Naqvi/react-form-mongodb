@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "concurrently \"npm run start-react\" \"npm run start-node\"",
-    "start-react": "cd front && npm start",
-    "start-node": "cd back && node server.js"
+    "start-react": "cd startServer && npm start",
+    "start-node": "cd endServer && node server.js"
   },
   "devDependencies": {
     "concurrently": "^8.2.1"
